@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div id="header">
+        <div class="container">
+            <nav>
+                <div class="logocontent">
+                <img src="logo.png" class="logo">
+                <div class="logo-name">Saurabh Sawant</div>
+                 </div>
+                <ul id="sidemenu">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#project">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+            <div class="header-text">
+                <h1>HEY, I'M <span> SAURABH </span></h1>
+                <p>Passionate front-end developer transforming visions into visually stunning <br> and seamlessly functional digital experiences.</p>
+                <div class="contacts">
+                    <a href="https://www.linkedin.com/public-profile/settings"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.instagram.com/invites/contact/?i=10pxp62ncexuu&utm_content=lp12vm4"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+                    
+</div>
+
+    <!-- about section -->
+
+<div id="about">
+        <div class="container2">
+            <div class="row">
+                <div class="column1">
+                    <img src="aboutimage.jpeg" >
+                </div>
+                <div class="column2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="about-info">I'm Saurabh Sawant , currently pursuing a Master of Computer Applications (MCA) degree while honing my skills as a front-end developer. Passionate about crafting engaging user experiences, I thrive on turning ideas into intuitive interfaces. With a keen eye for design and a love for coding, I'm on a mission to create innovative solutions that make a difference. Let's collaborate and build something extraordinary together!</p>
+
+                    <div class="tab-titles">
+                        <p  class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>Front-end Developer</span><br>Front-end Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span></span>No Experience<br></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>HSC</span><br>Maharashtra state Boardx</li>
+                            <li><span>Graducation(BCS)</span><br>Shivaji University</li>
+                            <li><span>Post Graducation(MCA)</span><br>JSPM's rscoe(Affleted by Pune University)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+     <!-- project section -->
+
+<div id="project">
+    <div class="container3">
+        <h1 class="sub-title1">My Work</h1>
+        <div class="project-list">
+            <div class="projects">
+                <img src="project1.png">
+                <div class="layer">
+                    <h3>Amazon Clone Website</h3>
+                    <p>I make amazon clone app for enhanceing my knowdlege in HTML and CSS and also progress UI desigining</p>
+                    <a href="file:///C:/AmazonClone/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="projects">
+                <img src="project2.png">
+                <div class="layer">
+                    <h3>Coffe shop Website</h3>
+                    <p>I make amazon clone app for enhanceing my knowdlege in HTML and CSS and also progress UI desigining</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="projects">
+                <img src="project3.png">
+                <div class="layer">
+                    <h3>college placement System</h3>
+                    <p>I make amazon clone app for enhanceing my knowdlege in HTML and CSS and also progress UI desigining</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- contact section -->
+
+<div id="contact">
+    <div class="container4">
+        <div class="row1">
+            <div class="contact-left">
+                <h1 class="sub-title2">Contact Me</h1>
+                <p class="gmail"><i class="fa-solid fa-paper-plane"></i> saurabhsawant143143@gamil.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 7558618172</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="ResumeSaurabh.pdf" download class="btn btn2 cv">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message"rows="6" placeholder="Your Message"></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<div class="copyright">
+    <p> Copyright © Saurabh. Made with   <i class="fa-solid fa-heart"></i></p>
+</div>
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxXnX5c3Pxi3TlUKFUQZ4IxAR9Te649uAIAnBoRUvT5s1ukRjy7D3xNsOjQgAds4K2zww/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
